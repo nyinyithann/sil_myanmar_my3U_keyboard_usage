@@ -27,7 +27,9 @@ export function Hero() {
         </p>
 
         <p className="text-base text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-          မြန်မာစာ လက်ရေးရေးသည့် အစီအစဉ်အတိုင်း ရိုက်သွားရုံသာ ဖြစ်ပါသည်။
+          မြန်မာစာ လက်ရေးရေးသည့် အစီအစဉ်အတိုင်း ရိုက်သွားရုံသာ ဖြစ်ပါသည်။ မြန်မာယူနီကုဒ်သည် အက္ခရာတစ်ခုမှ ပုံသဏ္ဌာန် ကွဲပြားသော စာလုံးပုံ အမျိုးမျိုးကို ခလုတ်တခုတည်း (ကုဒ်တစ်ခုတည်း ) ဖြင့်တည်ဆောက်ထားပါသည်။
+
+          ဆိုလိုသည်မှာ ရရစ် ( အကြီး အသေး အပြတ် ) အမျိုးမျိုး မရှိပါ။ ကီးဘုတ်ပေါ်တွင် ရရစ်တခုသာ တွေ့ရပါမည်။ ထို့အတူ တစ်ချောင်းငင် နှစ်ချောင်းငင် အရှည်ကိုလည်း တွေ့ရမည်မဟုတ်ပါ။ စာလုံးပေါင်း သတ်ပုံအတိုင်း ရိုက်နှိပ်သွားပါက လိုချင်သော စာလုံးပုံစံကို အလိုလျောက် ပြောင်းလဲ ပေးပါလိမ့်မည်။
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -39,7 +41,7 @@ export function Hero() {
             <ArrowDown className="w-4 h-4" />
           </a>
           <a
-            href="https://help.keyman.com/keyboard/sil_myanmar_my3/1.7.5/sil_myanmar_my3"
+            href="https://keyman.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-secondary text-secondary-foreground rounded-xl font-medium hover:bg-secondary/80 transition-all border border-border flex items-center gap-2"
@@ -47,28 +49,6 @@ export function Hero() {
             Keyman Download
             <ExternalLink className="w-4 h-4" />
           </a>
-        </div>
-
-        {/* Feature highlights */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-20">
-          <div className="p-6 rounded-2xl bg-card/50 border border-border backdrop-blur-sm">
-            <div className="text-3xl font-bold text-primary mb-2">Unicode</div>
-            <p className="text-sm text-muted-foreground">
-              အက္ခရာတစ်ခုမှ ပုံသဏ္ဌာန် ကွဲပြားသော စာလုံးပုံ အမျိုးမျိုး
-            </p>
-          </div>
-          <div className="p-6 rounded-2xl bg-card/50 border border-border backdrop-blur-sm">
-            <div className="text-3xl font-bold text-primary mb-2">Auto</div>
-            <p className="text-sm text-muted-foreground">
-              လိုချင်သော စာလုံးပုံစံကို အလိုလျောက် ပြောင်းလဲပေး
-            </p>
-          </div>
-          <div className="p-6 rounded-2xl bg-card/50 border border-border backdrop-blur-sm">
-            <div className="text-3xl font-bold text-primary mb-2">Simple</div>
-            <p className="text-sm text-muted-foreground">
-              ဝင်းလက်ကွက် နှင့် အများအားဖြင့် ဆင်တူ
-            </p>
-          </div>
         </div>
       </div>
     </section>

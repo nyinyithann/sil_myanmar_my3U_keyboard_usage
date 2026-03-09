@@ -8,7 +8,7 @@ export function KeyboardLayout() {
   const [activeTab, setActiveTab] = useState<"normal" | "shift">("normal");
 
   return (
-    <section id="keyboard" className="py-24 px-4 sm:px-6 lg:px-8">
+    <section id="keyboard" className="py-1 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <span className="text-primary font-medium text-sm tracking-wider uppercase mb-4 block">
@@ -80,22 +80,6 @@ export function KeyboardLayout() {
             >
               {activeTab === "shift" ? "SHIFT" : "NORMAL"}
             </span>
-          </div>
-        </div>
-
-        {/* Info cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-          <div className="p-6 rounded-xl bg-card border border-border">
-            <h3 className="font-semibold text-foreground mb-3">ရရစ်အကြောင်း</h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              ရရစ် ( အကြီး အသေး အပြတ် ) အမျိုးမျိုး မရှိပါ။ ကီးဘုတ်ပေါ်တွင် ရရစ်တခုသာ တွေ့ရပါမည်။
-            </p>
-          </div>
-          <div className="p-6 rounded-xl bg-card border border-border">
-            <h3 className="font-semibold text-foreground mb-3">တစ်ချောင်းငင် / နှစ်ချောင်းငင်</h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              တစ်ချောင်းငင် နှစ်ချောင်းငင် အရှည်ကိုလည်း တွေ့ရမည်မဟုတ်ပါ။ အလိုလျောက် ပြောင်းလဲပေးပါလိမ့်မည်။
-            </p>
           </div>
         </div>
       </div>

@@ -39,7 +39,7 @@ export function Header() {
               <Keyboard className="w-5 h-5 text-primary" />
             </div>
             <span className="font-semibold text-lg text-foreground">
-              Myanmar3
+              Myanmar3 လက်ကွက်
             </span>
           </a>
 
